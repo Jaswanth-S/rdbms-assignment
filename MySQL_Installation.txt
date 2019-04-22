@@ -1,0 +1,26 @@
+MYSQL:
+Install mysql server 5.7 on Ubuntu
+1.update ur system first.
+    sudo apt update
+    sudo apt upgrade
+2.Install mysql version 5.7 on Ubuntu 16.04
+   sudo apt install mysql-server mysql-client
+        You need to type the password for the MySQL root user: root
+3.Run mysql_secure_installation to secure your installation
+    sudo mysql_secure_installation
+4.How do I use MySQL server from commad line /terminal?
+    sudo mysql -u root -p
+5.How do I create a new MySQL server database and user account?
+    CREATE DATABASE DATABASE-NAME-HERE;
+    e.g create database student;
+6.to quit sql editor cli 
+    mysql> quit;
+7.How do I find out if MySQL running/active?
+    to start sql
+        sudo service mysql start
+   to stop sql
+        sudo service mysql stop
+8.Install mysql workspace 
+    sudo apt-get install mysql-workbench -y
+
+
